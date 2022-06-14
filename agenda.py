@@ -1,9 +1,10 @@
 def menu():
   voltarMenuPrincipal = 's'
   while voltarMenuPrincipal=='s':
-    opcao= input('''
+    opcao= input(f'''
   ==================================================
                     PROJETO AGENDA EM PYTHON
+  CONTATOS CADASTRADOS: {contarContatos()}
   MENU:
 
   [1]CADASTRAR CONTATO
@@ -29,6 +30,10 @@ def menu():
       sair()
     voltarMenuPrincipal=input("Deseja voltar ao menu principal ? (s/n) ").lower()
     
+def contarContatos():
+	with(open("agenda.txt","r")) as agenda:
+		return len(agenda.readlines())
+
 def atualizarContato():
   nomeDeletado = input("Digite o nome para ser Atualizado: ").lower()
   agenda = open("agenda.txt","r")

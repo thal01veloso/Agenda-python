@@ -1,3 +1,4 @@
 04;maria;3245457789; 
 52;Ruth;933665522;Ruth@gmail.com 
 9;Leonardo;54637281;leona@gmail.com 
+32;Mariana Simões;2332211234;Mari@gmail.com 
