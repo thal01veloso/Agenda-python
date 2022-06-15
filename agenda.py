@@ -15,6 +15,7 @@ def menu():
   [6]SAIR 
   ===================================================
   ESCOLHA UMA OPÇÃO ACIMA: 
+  
   ''')
     if opcao =="1":
       cadastrarContato()
