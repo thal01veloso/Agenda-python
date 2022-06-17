@@ -27,13 +27,16 @@ def menu():
       buscarContatoPeloNome()
     elif opcao =='5':
       atualizarContato()
-    else:
+    elif opcao =='6':
       sair()
+    else:
+      print("Opção inválida")
+      menu()
     voltarMenuPrincipal=input("Deseja voltar ao menu principal ? (s/n) ").lower()
     
 def contarContatos():
-	with(open("agenda.txt","r")) as agenda:
-		return len(agenda.readlines())
+  with(open("agenda.txt","r")) as agenda:
+    return len(agenda.readlines())
 
 def atualizarContato():
   nomeDeletado = input("Digite o nome para ser Atualizado: ").lower()
