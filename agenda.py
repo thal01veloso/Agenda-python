@@ -2,9 +2,10 @@ def menu():
   voltarMenuPrincipal = 's'
   while voltarMenuPrincipal=='s':
     opcao= input(f'''
-  ==================================================
+  =================================================================
                     PROJETO AGENDA EM PYTHON
-  CONTATOS CADASTRADOS: {contarContatos()}
+                    
+                                             {contarContatos()} CONTATOS CADASTRADOS
   MENU:
 
   [1]CADASTRAR CONTATO
@@ -13,7 +14,7 @@ def menu():
   [4]BUSCAR CONTATO PELO NOME
   [5]ATUALIZAR CONTATO
   [6]SAIR 
-  ===================================================
+  ==================================================================
   ESCOLHA UMA OPÇÃO ACIMA: 
   
   ''')
