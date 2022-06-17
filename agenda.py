@@ -83,7 +83,7 @@ def cadastrarContato():
 def listarContato():
   agenda = open("agenda.txt","r")
   for contato in agenda:
-    print(contato)
+    print(f'{contato.split(";")[0]}  {contato.split(";")[1]}  {contato.split(";")[2]}  {contato.split(";")[3]}')
   agenda.close()
 
 def deletarContato():
