@@ -3,19 +3,19 @@ def menu():
   while voltarMenuPrincipal=='s':
     opcao= input(f'''
   =================================================================
-                    PROJETO AGENDA EM PYTHON
-                    
-                                             {contarContatos()} CONTATOS CADASTRADOS
-
-  MENU:                                      ÚLTIMO CADASTRO
-                                             {ultimoContatoCadastrado()}
-  [1]CADASTRAR CONTATO
-  [2]LISTAR CONTATO
-  [3]DELETAR CONTATO
-  [4]BUSCAR CONTATO PELO NOME
-  [5]ATUALIZAR CONTATO
-  [6]SAIR 
-
+                    PROJETO AGENDA EM PYTHON                v.1
+                                +
+                                + {contarContatos()} CONTATOS CADASTRADOS
+                                +
+  MENU:                         + ÚLTIMO CADASTRO
+                                + {ultimoContatoCadastrado()}
+  [1]CADASTRAR CONTATO          +
+  [2]LISTAR CONTATO             +
+  [3]DELETAR CONTATO            +     
+  [4]BUSCAR CONTATO PELO NOME   +
+  [5]ATUALIZAR CONTATO          +
+  [6]SAIR                       +
+                                +
   ==================================================================
 
   ESCOLHA UMA OPÇÃO ACIMA: 
