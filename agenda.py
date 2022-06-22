@@ -7,7 +7,7 @@ def menu():
                     
                                              {contarContatos()} CONTATOS CADASTRADOS
 
-  MENU:                                      ULTIMO CADASTRO
+  MENU:                                      ÚLTIMO CADASTRO
                                              {ultimoContatoCadastrado()}
   [1]CADASTRAR CONTATO
   [2]LISTAR CONTATO
