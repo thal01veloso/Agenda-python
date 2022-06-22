@@ -14,7 +14,9 @@ def menu():
   [4]BUSCAR CONTATO PELO NOME
   [5]ATUALIZAR CONTATO
   [6]SAIR 
+
   ==================================================================
+  
   ESCOLHA UMA OPÇÃO ACIMA: 
   
   ''')
