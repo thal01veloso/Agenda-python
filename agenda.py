@@ -6,8 +6,9 @@ def menu():
                     PROJETO AGENDA EM PYTHON
                     
                                              {contarContatos()} CONTATOS CADASTRADOS
-  MENU:
 
+  MENU:                                      ULTIMO CADASTRO
+                                             {ultimoContatoCadastrado()}
   [1]CADASTRAR CONTATO
   [2]LISTAR CONTATO
   [3]DELETAR CONTATO
@@ -16,7 +17,7 @@ def menu():
   [6]SAIR 
 
   ==================================================================
-  
+
   ESCOLHA UMA OPÇÃO ACIMA: 
   
   ''')
@@ -112,7 +113,11 @@ def buscarContatoPeloNome():
     if nome in contato.split(";")[1].upper():
       print(contato)
   agenda.close()
-
+def ultimoContatoCadastrado():
+  with(open("agenda.txt","r")) as contatos:
+    ultimoContato= contatos.readlines()[-1]
+    return ultimoContato
+    
 def sair():
   print(f'Até mais... !!!')
   exit()
