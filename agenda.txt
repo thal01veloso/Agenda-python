@@ -2,4 +2,3 @@
 52;Ruth;933665522;Ruth@gmail.com 
 9;Leonardo;54637281;leona@gmail.com 
 32;Mariana Simões;2332211234;Mari@gmail.com 
-89;Junior;992243543;jr@nova.com.br 

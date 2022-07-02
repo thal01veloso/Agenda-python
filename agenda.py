@@ -100,6 +100,7 @@ def deletarContato():
   for i in range(0, len(aux)):
     if nomeDeletado not in aux[i].lower():
       aux2.append(aux[i])
+  agenda.close()
   agenda = open("agenda.txt","w")
   for i in aux2:
     agenda.write(i)
